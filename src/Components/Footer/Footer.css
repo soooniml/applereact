@@ -1,0 +1,42 @@
+.footerbackground{
+    background:gray;
+    width: 100%;
+    height: 100%;
+}
+
+.footerCenter{
+    padding-top: 25px;
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerinline{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footerinline .divide{
+    margin: 0 10px;
+}
+.footerinline ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    flex-direction: column;
+}
+
+.footerinline p{
+    color: white;
+}
+
+.footerinline ul li{
+    padding: 4px 0;
+}
+.footerinline ul li a{
+    font-size: 15px;
+    color: gainsboro;
+    text-decoration: none;
+}
+
